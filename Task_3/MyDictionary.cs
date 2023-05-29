@@ -10,7 +10,7 @@ namespace Task_3
 {
     internal class MyDictionary<T,R> : IEnumerable, IEnumerator<Element<T, R>>
     {
-        //цього разу вирішив зробити так щоб максимально приблизити до Dictionary
+        //цього разу вирішив зробити так щоб можно булоб звертатися по ключу та значекню при переборі так як в Dictionary
         Element<T, R>[] elements;
 
         int position;
